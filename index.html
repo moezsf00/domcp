@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</head>
+<body>
+<ol id="mylist">
+<li> item 1 <span id="one">0</span> <button onclick="addone('one')">+</button><button onclick="minusone('one')">-</button> <svg xmlns="http://www.w3.org/2000/svg" id="fitem" onclick="changecolor('fitem')" width="16" height="16" fill="black" class="bi bi-heart" viewBox="0 0 16 16">
+    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+  </svg></li>
+<li> item 2 <span id="two">0</span> <button onclick="addone('two')">+</button><button onclick="minusone('two')">-</button> <svg xmlns="http://www.w3.org/2000/svg" id="sitem" onclick="changecolor('sitem')" width="16" height="16" fill="black" class="bi bi-heart" viewBox="0 0 16 16">
+    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+  </svg></li></li>
+<li> item 3 <span id="three">0</span><button onclick="addone('three')">+</button><button onclick="minusone('three')">-</button><svg xmlns="http://www.w3.org/2000/svg" id="titem" onclick="changecolor('titem')" width="16" height="16" fill="black" class="bi bi-heart" viewBox="0 0 16 16">
+    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+  </svg></li></li>
+</ol>
+<h1>price <span id="price">0</span> </h1>
+<button onclick="removeitem()">remove item</button>
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
